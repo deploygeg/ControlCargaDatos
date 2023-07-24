@@ -1,0 +1,11 @@
+host: "18.229.102.98" 
+database: "geoalert_mel"
+user: "postgres" 
+password: "admPostgress2017_7766"
+port: 7766
+
+Xhost: "192.168.4.2" 
+Xdatabase: "geoalert_mel_gav"
+Xuser : "postgres" 
+Xpassword : "postgres"
+Xport : 5434
