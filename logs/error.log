@@ -1,0 +1,432 @@
+[Wed Jul 19 10:23:48.551341 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987] mod_wsgi (pid=17372): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:23:48.551341 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987] mod_wsgi (pid=17372): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:23:48.555331 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987] Traceback (most recent call last):\r
+[Wed Jul 19 10:23:48.557332 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:23:48.557332 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987]     from web import app as application\r
+[Wed Jul 19 10:23:48.557332 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:23:48.557332 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987]     import funciones as fn\r
+[Wed Jul 19 10:23:48.557332 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:23:48.557332 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987]     import psycopg2\r
+[Wed Jul 19 10:23:48.557332 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:1987] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:25:49.623929 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020] mod_wsgi (pid=17372): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:25:49.623929 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020] mod_wsgi (pid=17372): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020] Traceback (most recent call last):\r
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020]     from web import app as application\r
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020]     import funciones as fn\r
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020]     import psycopg2\r
+[Wed Jul 19 10:25:49.624936 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2020] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:25:59.421948 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021] mod_wsgi (pid=17372): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:25:59.421948 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021] mod_wsgi (pid=17372): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021] Traceback (most recent call last):\r
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021]     from web import app as application\r
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021]     import funciones as fn\r
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021]     import psycopg2\r
+[Wed Jul 19 10:25:59.422946 2023] [wsgi:error] [pid 17372:tid 1392] [client 152.173.16.78:2021] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:26:15.380926 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029] mod_wsgi (pid=17372): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:26:15.380926 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029] mod_wsgi (pid=17372): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029] Traceback (most recent call last):\r
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029]     from web import app as application\r
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029]     import funciones as fn\r
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029]     import psycopg2\r
+[Wed Jul 19 10:26:15.381927 2023] [wsgi:error] [pid 17372:tid 1388] [client 152.173.16.78:2029] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:32:34.890933 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:32:34.890933 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:32:34.894897 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120] Traceback (most recent call last):\r
+[Wed Jul 19 10:32:34.895895 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:32:34.895895 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120]     from web import app as application\r
+[Wed Jul 19 10:32:34.895895 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:32:34.895895 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120]     import funciones as fn\r
+[Wed Jul 19 10:32:34.895895 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:32:34.895895 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120]     import psycopg2\r
+[Wed Jul 19 10:32:34.895895 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2120] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:32:50.448696 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:32:50.449694 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:32:50.450694 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119] Traceback (most recent call last):\r
+[Wed Jul 19 10:32:50.451695 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:32:50.451695 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119]     from web import app as application\r
+[Wed Jul 19 10:32:50.451695 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:32:50.451695 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119]     import funciones as fn\r
+[Wed Jul 19 10:32:50.451695 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:32:50.451695 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119]     import psycopg2\r
+[Wed Jul 19 10:32:50.451695 2023] [wsgi:error] [pid 27088:tid 1356] [client 152.173.16.78:2119] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:37:18.223754 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:37:18.223754 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228] Traceback (most recent call last):\r
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228]     from web import app as application\r
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228]     import funciones as fn\r
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228]     import psycopg2\r
+[Wed Jul 19 10:37:18.224755 2023] [wsgi:error] [pid 27088:tid 1360] [client 152.173.16.78:2228] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:39:43.552017 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:43.552017 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603] Traceback (most recent call last):\r
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603]     from web import app as application\r
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603]     import funciones as fn\r
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603]     import psycopg2\r
+[Wed Jul 19 10:39:43.553005 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63603] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:39:49.615232 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:49.615232 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604] Traceback (most recent call last):\r
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604]     from web import app as application\r
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604]     import funciones as fn\r
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604]     import psycopg2\r
+[Wed Jul 19 10:39:49.616200 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63604] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:39:50.654275 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:50.654275 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605] Traceback (most recent call last):\r
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605]     from web import app as application\r
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605]     import funciones as fn\r
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605]     import psycopg2\r
+[Wed Jul 19 10:39:50.655273 2023] [wsgi:error] [pid 27088:tid 1356] [client ::1:63605] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:39:52.063462 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:52.063462 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606] Traceback (most recent call last):\r
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606]     from web import app as application\r
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606]     import funciones as fn\r
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606]     import psycopg2\r
+[Wed Jul 19 10:39:52.064398 2023] [wsgi:error] [pid 27088:tid 1360] [client ::1:63606] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:40:03.106359 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858] mod_wsgi (pid=27088): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:40:03.106359 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858] mod_wsgi (pid=27088): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/web.wsgi'.
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858] Traceback (most recent call last):\r
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858]   File "C:/Apache24/htdocs/api_ges_link/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858]     from web import app as application\r
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858]     import funciones as fn\r
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858]   File "C:\\Apache24/htdocs/api_ges_link/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858]     import psycopg2\r
+[Wed Jul 19 10:40:03.107360 2023] [wsgi:error] [pid 27088:tid 1360] [client 107.170.243.39:48858] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 10:48:10.573929 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63638] mod_wsgi (pid=14136): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:10.573929 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63638] mod_wsgi (pid=14136): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:10.588928 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63638] Traceback (most recent call last):\r
+[Wed Jul 19 10:48:10.596981 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63638]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:48:10.596981 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63638]     from web import app as application\r
+[Wed Jul 19 10:48:10.596981 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63638] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 10:48:15.153467 2023] [wsgi:error] [pid 14136:tid 1352] [client ::1:63639] mod_wsgi (pid=14136): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:15.153467 2023] [wsgi:error] [pid 14136:tid 1352] [client ::1:63639] mod_wsgi (pid=14136): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:15.153467 2023] [wsgi:error] [pid 14136:tid 1352] [client ::1:63639] Traceback (most recent call last):\r
+[Wed Jul 19 10:48:15.154468 2023] [wsgi:error] [pid 14136:tid 1352] [client ::1:63639]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:48:15.154468 2023] [wsgi:error] [pid 14136:tid 1352] [client ::1:63639]     from web import app as application\r
+[Wed Jul 19 10:48:15.154468 2023] [wsgi:error] [pid 14136:tid 1352] [client ::1:63639] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 10:48:28.860534 2023] [wsgi:error] [pid 14136:tid 1344] [client 152.173.16.78:2412] mod_wsgi (pid=14136): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:28.860534 2023] [wsgi:error] [pid 14136:tid 1344] [client 152.173.16.78:2412] mod_wsgi (pid=14136): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:28.861533 2023] [wsgi:error] [pid 14136:tid 1344] [client 152.173.16.78:2412] Traceback (most recent call last):\r
+[Wed Jul 19 10:48:28.861533 2023] [wsgi:error] [pid 14136:tid 1344] [client 152.173.16.78:2412]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:48:28.861533 2023] [wsgi:error] [pid 14136:tid 1344] [client 152.173.16.78:2412]     from web import app as application\r
+[Wed Jul 19 10:48:28.861533 2023] [wsgi:error] [pid 14136:tid 1344] [client 152.173.16.78:2412] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 10:48:34.919605 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2411] mod_wsgi (pid=14136): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:34.919605 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2411] mod_wsgi (pid=14136): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:34.920623 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2411] Traceback (most recent call last):\r
+[Wed Jul 19 10:48:34.920623 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2411]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:48:34.920623 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2411]     from web import app as application\r
+[Wed Jul 19 10:48:34.920623 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2411] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 10:48:36.143593 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2417] mod_wsgi (pid=14136): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:36.143593 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2417] mod_wsgi (pid=14136): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 10:48:36.144591 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2417] Traceback (most recent call last):\r
+[Wed Jul 19 10:48:36.144591 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2417]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 10:48:36.144591 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2417]     from web import app as application\r
+[Wed Jul 19 10:48:36.144591 2023] [wsgi:error] [pid 14136:tid 1352] [client 152.173.16.78:2417] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 11:38:44.760822 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767] mod_wsgi (pid=14136): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:38:44.761801 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767] mod_wsgi (pid=14136): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:38:44.762805 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767] Traceback (most recent call last):\r
+[Wed Jul 19 11:38:44.762805 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:38:44.762805 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767]     from web import app as application\r
+[Wed Jul 19 11:38:44.763801 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:38:44.763801 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767]     import funciones as fn\r
+[Wed Jul 19 11:38:44.763801 2023] [wsgi:error] [pid 14136:tid 1344] [client ::1:63767] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:38:56.915149 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768] mod_wsgi (pid=14136): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:38:56.915149 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768] mod_wsgi (pid=14136): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:38:56.916162 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768] Traceback (most recent call last):\r
+[Wed Jul 19 11:38:56.916162 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:38:56.916162 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768]     from web import app as application\r
+[Wed Jul 19 11:38:56.916162 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:38:56.916162 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768]     import funciones as fn\r
+[Wed Jul 19 11:38:56.916162 2023] [wsgi:error] [pid 14136:tid 1360] [client ::1:63768] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:38:59.069145 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:38:59.069145 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:38:59.071157 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772] Traceback (most recent call last):\r
+[Wed Jul 19 11:38:59.072150 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:38:59.072150 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772]     from web import app as application\r
+[Wed Jul 19 11:38:59.072150 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:38:59.072150 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772]     import funciones as fn\r
+[Wed Jul 19 11:38:59.072150 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63772] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:39:00.962140 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:39:00.962140 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:39:00.963137 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773] Traceback (most recent call last):\r
+[Wed Jul 19 11:39:00.963137 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:39:00.963137 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773]     from web import app as application\r
+[Wed Jul 19 11:39:00.963137 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:39:00.963137 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773]     import funciones as fn\r
+[Wed Jul 19 11:39:00.963137 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63773] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:39:56.544721 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:39:56.544721 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:39:56.545733 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774] Traceback (most recent call last):\r
+[Wed Jul 19 11:39:56.545733 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:39:56.545733 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774]     from web import app as application\r
+[Wed Jul 19 11:39:56.545733 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:39:56.545733 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774]     import funciones as fn\r
+[Wed Jul 19 11:39:56.546727 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63774] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:39:58.005185 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:39:58.005185 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:39:58.006165 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796] Traceback (most recent call last):\r
+[Wed Jul 19 11:39:58.006165 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:39:58.006165 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796]     from web import app as application\r
+[Wed Jul 19 11:39:58.006165 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:39:58.006165 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796]     import funciones as fn\r
+[Wed Jul 19 11:39:58.006165 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63796] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:42:39.686935 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:39.686935 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:39.688940 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804] Traceback (most recent call last):\r
+[Wed Jul 19 11:42:39.688940 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:42:39.688940 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804]     from web import app as application\r
+[Wed Jul 19 11:42:39.688940 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:42:39.688940 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804]     import funciones as fn\r
+[Wed Jul 19 11:42:39.688940 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63804] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:42:40.591946 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:40.591946 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:40.592933 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805] Traceback (most recent call last):\r
+[Wed Jul 19 11:42:40.592933 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:42:40.592933 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805]     from web import app as application\r
+[Wed Jul 19 11:42:40.592933 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:42:40.592933 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805]     import funciones as fn\r
+[Wed Jul 19 11:42:40.592933 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63805] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:42:41.343932 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:41.343932 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:41.344927 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806] Traceback (most recent call last):\r
+[Wed Jul 19 11:42:41.344927 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:42:41.344927 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806]     from web import app as application\r
+[Wed Jul 19 11:42:41.344927 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:42:41.344927 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806]     import funciones as fn\r
+[Wed Jul 19 11:42:41.344927 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63806] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:42:42.133938 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:42.133938 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:42.134930 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807] Traceback (most recent call last):\r
+[Wed Jul 19 11:42:42.134930 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:42:42.134930 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807]     from web import app as application\r
+[Wed Jul 19 11:42:42.134930 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:42:42.134930 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807]     import funciones as fn\r
+[Wed Jul 19 11:42:42.134930 2023] [wsgi:error] [pid 12648:tid 1408] [client ::1:63807] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:42:44.444934 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808] mod_wsgi (pid=12648): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:44.445925 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808] mod_wsgi (pid=12648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:42:44.445925 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808] Traceback (most recent call last):\r
+[Wed Jul 19 11:42:44.445925 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:42:44.446926 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808]     from web import app as application\r
+[Wed Jul 19 11:42:44.446926 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:42:44.446926 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808]     import funciones as fn\r
+[Wed Jul 19 11:42:44.446926 2023] [wsgi:error] [pid 12648:tid 1344] [client ::1:63808] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:52:02.273978 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258] mod_wsgi (pid=18312): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:52:02.273978 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258] mod_wsgi (pid=18312): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:52:02.275928 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258] Traceback (most recent call last):\r
+[Wed Jul 19 11:52:02.275928 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:52:02.275928 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258]     from web import app as application\r
+[Wed Jul 19 11:52:02.275928 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:52:02.275928 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258]     import funciones as fn\r
+[Wed Jul 19 11:52:02.276975 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4258] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:52:46.892389 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259] mod_wsgi (pid=18312): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:52:46.892389 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259] mod_wsgi (pid=18312): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:52:46.893387 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259] Traceback (most recent call last):\r
+[Wed Jul 19 11:52:46.893387 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:52:46.893387 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259]     from web import app as application\r
+[Wed Jul 19 11:52:46.893387 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:52:46.893387 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259]     import funciones as fn\r
+[Wed Jul 19 11:52:46.893387 2023] [wsgi:error] [pid 18312:tid 1392] [client 152.173.16.78:4259] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 11:53:01.297051 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272] mod_wsgi (pid=18312): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:53:01.297051 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272] mod_wsgi (pid=18312): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 11:53:01.298044 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272] Traceback (most recent call last):\r
+[Wed Jul 19 11:53:01.298044 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 11:53:01.298044 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272]     from web import app as application\r
+[Wed Jul 19 11:53:01.298044 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 11:53:01.298044 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272]     import funciones as fn\r
+[Wed Jul 19 11:53:01.298044 2023] [wsgi:error] [pid 18312:tid 1388] [client 152.173.16.78:4272] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 14:27:24.336578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113] mod_wsgi (pid=5688): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:27:24.336578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113] mod_wsgi (pid=5688): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:27:24.338578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113] Traceback (most recent call last):\r
+[Wed Jul 19 14:27:24.339578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 14:27:24.339578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113]     from web import app as application\r
+[Wed Jul 19 14:27:24.339578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 14:27:24.339578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113]     import funciones as fn\r
+[Wed Jul 19 14:27:24.339578 2023] [wsgi:error] [pid 5688:tid 1400] [client 152.173.16.78:8113] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 14:27:57.763534 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274] mod_wsgi (pid=5688): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:27:57.763534 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274] mod_wsgi (pid=5688): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:27:57.764528 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274] Traceback (most recent call last):\r
+[Wed Jul 19 14:27:57.764528 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 14:27:57.764528 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274]     from web import app as application\r
+[Wed Jul 19 14:27:57.764528 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 14:27:57.764528 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274]     import funciones as fn\r
+[Wed Jul 19 14:27:57.764528 2023] [wsgi:error] [pid 5688:tid 1400] [client ::1:64274] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 14:28:35.559530 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275] mod_wsgi (pid=5688): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:28:35.559530 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275] mod_wsgi (pid=5688): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:28:35.560521 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275] Traceback (most recent call last):\r
+[Wed Jul 19 14:28:35.560521 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 14:28:35.560521 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275]     from web import app as application\r
+[Wed Jul 19 14:28:35.560521 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 14:28:35.560521 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275]     import funciones as fn\r
+[Wed Jul 19 14:28:35.561520 2023] [wsgi:error] [pid 5688:tid 1392] [client ::1:64275] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 14:28:45.520286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865] mod_wsgi (pid=5688): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:28:45.520286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865] mod_wsgi (pid=5688): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 14:28:45.521286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865] Traceback (most recent call last):\r
+[Wed Jul 19 14:28:45.521286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 14:28:45.521286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865]     from web import app as application\r
+[Wed Jul 19 14:28:45.521286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 14:28:45.521286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865]     import funciones as fn\r
+[Wed Jul 19 14:28:45.521286 2023] [wsgi:error] [pid 5688:tid 1392] [client 116.74.224.74:39865] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 15:28:19.046477 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471] mod_wsgi (pid=15876): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:28:19.046477 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471] mod_wsgi (pid=15876): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:28:19.048499 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471] Traceback (most recent call last):\r
+[Wed Jul 19 15:28:19.048499 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:28:19.048499 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471]     from web import app as application\r
+[Wed Jul 19 15:28:19.048499 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 15:28:19.048499 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471]     import funciones as fn\r
+[Wed Jul 19 15:28:19.048499 2023] [wsgi:error] [pid 15876:tid 1440] [client ::1:64471] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 15:33:56.377031 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133] mod_wsgi (pid=21548): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:33:56.378031 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133] mod_wsgi (pid=21548): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:33:56.379031 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133] Traceback (most recent call last):\r
+[Wed Jul 19 15:33:56.380032 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:33:56.380032 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133]     from web import app as application\r
+[Wed Jul 19 15:33:56.380032 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 15:33:56.380032 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133]     import funciones as fn\r
+[Wed Jul 19 15:33:56.380032 2023] [wsgi:error] [pid 21548:tid 1368] [client 152.173.16.78:9133] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 15:33:58.888070 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134] mod_wsgi (pid=21548): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:33:58.888070 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134] mod_wsgi (pid=21548): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:33:58.889068 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134] Traceback (most recent call last):\r
+[Wed Jul 19 15:33:58.889068 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:33:58.889068 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134]     from web import app as application\r
+[Wed Jul 19 15:33:58.889068 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 15:33:58.889068 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134]     import funciones as fn\r
+[Wed Jul 19 15:33:58.889068 2023] [wsgi:error] [pid 21548:tid 1472] [client 152.173.16.78:9134] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 15:34:05.521308 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501] mod_wsgi (pid=21548): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:34:05.521308 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501] mod_wsgi (pid=21548): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:34:05.521308 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501] Traceback (most recent call last):\r
+[Wed Jul 19 15:34:05.522289 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:34:05.522289 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501]     from web import app as application\r
+[Wed Jul 19 15:34:05.522289 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501]   File "C:\\Apache24/htdocs/api_ges_link/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 15:34:05.522289 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501]     import funciones as fn\r
+[Wed Jul 19 15:34:05.522289 2023] [wsgi:error] [pid 21548:tid 1472] [client ::1:64501] ModuleNotFoundError: No module named 'funciones'\r
+[Wed Jul 19 15:36:55.867507 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9197] mod_wsgi (pid=19928): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:36:55.867507 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9197] mod_wsgi (pid=19928): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:36:55.884507 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9197] Traceback (most recent call last):\r
+[Wed Jul 19 15:36:55.892509 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9197]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:36:55.892509 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9197]     from web import app as application\r
+[Wed Jul 19 15:36:55.892509 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9197] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 15:36:57.395504 2023] [wsgi:error] [pid 19928:tid 1384] [client 152.173.16.78:9196] mod_wsgi (pid=19928): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:36:57.395504 2023] [wsgi:error] [pid 19928:tid 1384] [client 152.173.16.78:9196] mod_wsgi (pid=19928): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:36:57.396504 2023] [wsgi:error] [pid 19928:tid 1384] [client 152.173.16.78:9196] Traceback (most recent call last):\r
+[Wed Jul 19 15:36:57.396504 2023] [wsgi:error] [pid 19928:tid 1384] [client 152.173.16.78:9196]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:36:57.396504 2023] [wsgi:error] [pid 19928:tid 1384] [client 152.173.16.78:9196]     from web import app as application\r
+[Wed Jul 19 15:36:57.396504 2023] [wsgi:error] [pid 19928:tid 1384] [client 152.173.16.78:9196] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 15:37:00.219490 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9198] mod_wsgi (pid=19928): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:37:00.219490 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9198] mod_wsgi (pid=19928): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi'.
+[Wed Jul 19 15:37:00.219490 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9198] Traceback (most recent call last):\r
+[Wed Jul 19 15:37:00.220489 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9198]   File "C:/Apache24/htdocs/api_ges_link/control/index/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:37:00.220489 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9198]     from web import app as application\r
+[Wed Jul 19 15:37:00.220489 2023] [wsgi:error] [pid 19928:tid 1376] [client 152.173.16.78:9198] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 15:42:25.376460 2023] [wsgi:error] [pid 22420:tid 1380] [client ::1:64534] mod_wsgi (pid=22420): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:42:25.377452 2023] [wsgi:error] [pid 22420:tid 1380] [client ::1:64534] mod_wsgi (pid=22420): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:42:25.391454 2023] [wsgi:error] [pid 22420:tid 1380] [client ::1:64534] Traceback (most recent call last):\r
+[Wed Jul 19 15:42:25.398444 2023] [wsgi:error] [pid 22420:tid 1380] [client ::1:64534]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:42:25.398444 2023] [wsgi:error] [pid 22420:tid 1380] [client ::1:64534]     from web import app as application\r
+[Wed Jul 19 15:42:25.399505 2023] [wsgi:error] [pid 22420:tid 1380] [client ::1:64534] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 15:43:11.933641 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9298] mod_wsgi (pid=22420): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:43:11.933641 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9298] mod_wsgi (pid=22420): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:43:11.933641 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9298] Traceback (most recent call last):\r
+[Wed Jul 19 15:43:11.934640 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9298]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:43:11.934640 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9298]     from web import app as application\r
+[Wed Jul 19 15:43:11.934640 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9298] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 15:43:13.013637 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9303] mod_wsgi (pid=22420): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:43:13.013637 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9303] mod_wsgi (pid=22420): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:43:13.014637 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9303] Traceback (most recent call last):\r
+[Wed Jul 19 15:43:13.014637 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9303]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:43:13.014637 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9303]     from web import app as application\r
+[Wed Jul 19 15:43:13.014637 2023] [wsgi:error] [pid 22420:tid 1380] [client 152.173.16.78:9303] ModuleNotFoundError: No module named 'web'\r
+[Wed Jul 19 15:46:04.822788 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358] mod_wsgi (pid=23556): Failed to exec Python script file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:46:04.822788 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358] mod_wsgi (pid=23556): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:46:04.825772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358] Traceback (most recent call last):\r
+[Wed Jul 19 15:46:04.825772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3, in <module>\r
+[Wed Jul 19 15:46:04.825772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358]     from web import app as application\r
+[Wed Jul 19 15:46:04.825772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358]   File "C:\\Apache24/htdocs/api_ges_link/app/control\\web.py", line 2, in <module>\r
+[Wed Jul 19 15:46:04.825772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358]     import funciones as fn\r
+[Wed Jul 19 15:46:04.825772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358]   File "C:\\Apache24/htdocs/api_ges_link/app/control\\funciones.py", line 4, in <module>\r
+[Wed Jul 19 15:46:04.825772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358]     import psycopg2\r
+[Wed Jul 19 15:46:04.826772 2023] [wsgi:error] [pid 23556:tid 1380] [client 152.173.16.78:9358] ModuleNotFoundError: No module named 'psycopg2'\r
+[Wed Jul 19 15:52:01.538390 2023] [wsgi:error] [pid 26440:tid 1372] [client 152.173.16.78:9553] mod_wsgi (pid=26440, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:52:01.539384 2023] [wsgi:error] [pid 26440:tid 1372] [client 152.173.16.78:9553] mod_wsgi (pid=26440): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:52:01.552387 2023] [wsgi:error] [pid 26440:tid 1372] [client 152.173.16.78:9553]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r
+[Wed Jul 19 15:52:01.552387 2023] [wsgi:error] [pid 26440:tid 1372] [client 152.173.16.78:9553]     from web import app as application in web.py\r
+[Wed Jul 19 15:52:01.552387 2023] [wsgi:error] [pid 26440:tid 1372] [client 152.173.16.78:9553]                                        ^^\r
+[Wed Jul 19 15:52:01.553389 2023] [wsgi:error] [pid 26440:tid 1372] [client 152.173.16.78:9553] SyntaxError: invalid syntax\r
+[Wed Jul 19 15:52:10.406339 2023] [wsgi:error] [pid 26440:tid 1372] [client ::1:64561] mod_wsgi (pid=26440, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:52:10.406339 2023] [wsgi:error] [pid 26440:tid 1372] [client ::1:64561] mod_wsgi (pid=26440): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:52:10.406339 2023] [wsgi:error] [pid 26440:tid 1372] [client ::1:64561]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r
+[Wed Jul 19 15:52:10.406339 2023] [wsgi:error] [pid 26440:tid 1372] [client ::1:64561]     from web import app as application in web.py\r
+[Wed Jul 19 15:52:10.406339 2023] [wsgi:error] [pid 26440:tid 1372] [client ::1:64561]                                        ^^\r
+[Wed Jul 19 15:52:10.406339 2023] [wsgi:error] [pid 26440:tid 1372] [client ::1:64561] SyntaxError: invalid syntax\r
+[Wed Jul 19 15:52:11.400342 2023] [wsgi:error] [pid 26440:tid 1364] [client ::1:64562] mod_wsgi (pid=26440, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:52:11.400342 2023] [wsgi:error] [pid 26440:tid 1364] [client ::1:64562] mod_wsgi (pid=26440): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 15:52:11.400342 2023] [wsgi:error] [pid 26440:tid 1364] [client ::1:64562]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r
+[Wed Jul 19 15:52:11.400342 2023] [wsgi:error] [pid 26440:tid 1364] [client ::1:64562]     from web import app as application in web.py\r
+[Wed Jul 19 15:52:11.400342 2023] [wsgi:error] [pid 26440:tid 1364] [client ::1:64562]                                        ^^\r
+[Wed Jul 19 15:52:11.400342 2023] [wsgi:error] [pid 26440:tid 1364] [client ::1:64562] SyntaxError: invalid syntax\r
+[Wed Jul 19 16:03:16.894866 2023] [wsgi:error] [pid 13648:tid 1244] [client 152.173.16.78:9813] mod_wsgi (pid=13648, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:03:16.894866 2023] [wsgi:error] [pid 13648:tid 1244] [client 152.173.16.78:9813] mod_wsgi (pid=13648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:03:16.908850 2023] [wsgi:error] [pid 13648:tid 1244] [client 152.173.16.78:9813]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r
+[Wed Jul 19 16:03:16.908850 2023] [wsgi:error] [pid 13648:tid 1244] [client 152.173.16.78:9813]     from web import app as application in web.py\r
+[Wed Jul 19 16:03:16.908850 2023] [wsgi:error] [pid 13648:tid 1244] [client 152.173.16.78:9813]                                        ^^\r
+[Wed Jul 19 16:03:16.908850 2023] [wsgi:error] [pid 13648:tid 1244] [client 152.173.16.78:9813] SyntaxError: invalid syntax\r
+[Wed Jul 19 16:03:31.531057 2023] [wsgi:error] [pid 13648:tid 1228] [client ::1:64593] mod_wsgi (pid=13648, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:03:31.531057 2023] [wsgi:error] [pid 13648:tid 1228] [client ::1:64593] mod_wsgi (pid=13648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:03:31.532059 2023] [wsgi:error] [pid 13648:tid 1228] [client ::1:64593]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r
+[Wed Jul 19 16:03:31.532059 2023] [wsgi:error] [pid 13648:tid 1228] [client ::1:64593]     from web import app as application in web.py\r
+[Wed Jul 19 16:03:31.532059 2023] [wsgi:error] [pid 13648:tid 1228] [client ::1:64593]                                        ^^\r
+[Wed Jul 19 16:03:31.532059 2023] [wsgi:error] [pid 13648:tid 1228] [client ::1:64593] SyntaxError: invalid syntax\r
+[Wed Jul 19 16:05:47.252323 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56488] mod_wsgi (pid=13648, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:05:47.252323 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56488] mod_wsgi (pid=13648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:05:47.253322 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56488]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r
+[Wed Jul 19 16:05:47.253322 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56488]     from web import app as application in web.py\r
+[Wed Jul 19 16:05:47.253322 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56488]                                        ^^\r
+[Wed Jul 19 16:05:47.253322 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56488] SyntaxError: invalid syntax\r
+[Wed Jul 19 16:05:47.907319 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56659] mod_wsgi (pid=13648, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'., referer: http://161.0.162.4/
+[Wed Jul 19 16:05:47.907319 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56659] mod_wsgi (pid=13648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'., referer: http://161.0.162.4/
+[Wed Jul 19 16:05:47.907319 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56659]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r, referer: http://161.0.162.4/
+[Wed Jul 19 16:05:47.907319 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56659]     from web import app as application in web.py\r, referer: http://161.0.162.4/
+[Wed Jul 19 16:05:47.908316 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56659]                                        ^^\r, referer: http://161.0.162.4/
+[Wed Jul 19 16:05:47.908316 2023] [wsgi:error] [pid 13648:tid 1220] [client 151.247.241.0:56659] SyntaxError: invalid syntax\r, referer: http://161.0.162.4/
+[Wed Jul 19 16:11:16.497162 2023] [wsgi:error] [pid 13648:tid 1220] [client 31.7.60.114:50430] mod_wsgi (pid=13648, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'., referer: http://161.0.162.4:80/left.html
+[Wed Jul 19 16:11:16.498176 2023] [wsgi:error] [pid 13648:tid 1220] [client 31.7.60.114:50430] mod_wsgi (pid=13648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'., referer: http://161.0.162.4:80/left.html
+[Wed Jul 19 16:11:16.498176 2023] [wsgi:error] [pid 13648:tid 1220] [client 31.7.60.114:50430]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r, referer: http://161.0.162.4:80/left.html
+[Wed Jul 19 16:11:16.498176 2023] [wsgi:error] [pid 13648:tid 1220] [client 31.7.60.114:50430]     from web import app as application in web.py\r, referer: http://161.0.162.4:80/left.html
+[Wed Jul 19 16:11:16.498176 2023] [wsgi:error] [pid 13648:tid 1220] [client 31.7.60.114:50430]                                        ^^\r, referer: http://161.0.162.4:80/left.html
+[Wed Jul 19 16:11:16.498176 2023] [wsgi:error] [pid 13648:tid 1220] [client 31.7.60.114:50430] SyntaxError: invalid syntax\r, referer: http://161.0.162.4:80/left.html
+[Wed Jul 19 16:24:20.581801 2023] [wsgi:error] [pid 13648:tid 1220] [client 95.214.27.160:47430] mod_wsgi (pid=13648, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'., referer: http://161.0.162.4:80/admin/login.asp
+[Wed Jul 19 16:24:20.581801 2023] [wsgi:error] [pid 13648:tid 1220] [client 95.214.27.160:47430] mod_wsgi (pid=13648): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'., referer: http://161.0.162.4:80/admin/login.asp
+[Wed Jul 19 16:24:20.581801 2023] [wsgi:error] [pid 13648:tid 1220] [client 95.214.27.160:47430]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r, referer: http://161.0.162.4:80/admin/login.asp
+[Wed Jul 19 16:24:20.581801 2023] [wsgi:error] [pid 13648:tid 1220] [client 95.214.27.160:47430]     from web import app as application in web.py\r, referer: http://161.0.162.4:80/admin/login.asp
+[Wed Jul 19 16:24:20.582801 2023] [wsgi:error] [pid 13648:tid 1220] [client 95.214.27.160:47430]                                        ^^\r, referer: http://161.0.162.4:80/admin/login.asp
+[Wed Jul 19 16:24:20.582801 2023] [wsgi:error] [pid 13648:tid 1220] [client 95.214.27.160:47430] SyntaxError: invalid syntax\r, referer: http://161.0.162.4:80/admin/login.asp
+[Wed Jul 19 16:36:15.483192 2023] [wsgi:error] [pid 1028:tid 1264] [client ::1:64684] mod_wsgi (pid=1028, process='', application=''): Could not read/compile source file 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:36:15.483192 2023] [wsgi:error] [pid 1028:tid 1264] [client ::1:64684] mod_wsgi (pid=1028): Exception occurred processing WSGI script 'C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi'.
+[Wed Jul 19 16:36:15.483192 2023] [wsgi:error] [pid 1028:tid 1264] [client ::1:64684]   File "C:/Apache24/htdocs/api_ges_link/app/control/web.wsgi", line 3\r
+[Wed Jul 19 16:36:15.483192 2023] [wsgi:error] [pid 1028:tid 1264] [client ::1:64684]     from web import app as application in web.py\r
+[Wed Jul 19 16:36:15.483192 2023] [wsgi:error] [pid 1028:tid 1264] [client ::1:64684]                                        ^^\r
+[Wed Jul 19 16:36:15.484190 2023] [wsgi:error] [pid 1028:tid 1264] [client ::1:64684] SyntaxError: invalid syntax\r

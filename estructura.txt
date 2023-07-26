@@ -1,0 +1,16 @@
+myproject/
+    app.py
+    config.py
+    requirements.txt
+    run.py
+    static/
+        css/
+            main.css
+        js/
+            main.js
+        images/ 
+            logo.png 
+    templates/ 
+        base.html 
+        index.html 
+        about.html
