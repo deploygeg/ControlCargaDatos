@@ -6,7 +6,7 @@ app = Flask(__name__)
 #app=Flask(__name__,template_folder='templates')
 @app.route('/')
 def index():
-    return render_template("indexnew.html")
+    return render_template("indexTo.html")
 @app.route('/piezometros_DB')
 def piezometros_API_DB():
     return render_template("piezometros_DB.html")
