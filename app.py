@@ -1,44 +1,12 @@
-from flask import Flask,jsonify,request,abort,render_template
-from Utilities import stats
-from funciones import *
-import os
+from flask import Flask, jsonify
 import funcionesAPI as fn
-
-
+import os
+from flask import render_template
 app = Flask(__name__)
-
-@app.route("/")
-def hello():
-    return "INICIO DE API REST DE FLASK CON APACHE24 Y PYTHON"
-
-#funcion post para obtener el promedio de un array ingresado en un json
-@app.route('/promedio',methods=["POST"])
-def promedio():
-    lista = request.json
-    print("El resultado es :",lista["valores"])
-    if not lista["valores"]:
-        data ={"error":"Lista vacia"}
-        #abort(404, description="Lista vacia")
-        return jsonify(data)
-    else:
-        p=promedioArray(lista["valores"])
-        data ={"promedio":p}
-        return jsonify(data)
-#funcion post para obtener la tendiencia
-@app.route('/tendencia',methods=["POST"])
-def tendencia():
-    lista = request.json
-    print("Lista HTTP es :",lista)
-    if not lista["data_group1"]or not lista["data_group2"]:
-        data ={"error":"Lista vacia"}
-        #abort(404, description="Lista vacia")
-        return jsonify(data)
-    else:
-        #r=lista
-        r = stats.indicador_cambio_tendencia(lista["data_group1"], lista["data_group2"])
-        print(r)
-        return jsonify(r)
-
+#app=Flask(__name__,template_folder='templates')
+@app.route('/')
+def index():
+    return render_template("piezometro_DS.html")
 @app.route('/piezometros_DB')
 def piezometros_API_DB():
     return render_template("piezometros_DB.html")
@@ -69,6 +37,9 @@ def sensores_humedad():
     #sensores_humedad = fn.get_all_humedad()
     return render_template("humedad_DB.html")
     #return jsonify(sensores_humedad)
+@app.route("/humedad_DS")
+def sensores_humedad_DS():
+    return render_template("humedad_DS.html")
 
 @app.route("/gnss")
 def gnss_API():
@@ -80,6 +51,10 @@ def gnss_API():
 def sensores_gnss():
     return render_template("gnss_DB.html")
 
+@app.route("/gnss_DS")
+def sensores_gnss_DS():
+    return render_template("gnss_DS.html")
+
 @app.route("/prismas")
 def prismas_API():
     sensores_gnss = fn.get_all_prismas()
@@ -89,6 +64,10 @@ def prismas_API():
 @app.route("/prismas_DB")
 def sensores_prismas():
     return render_template("prismas_DB.html")
+
+@app.route("/prismas_DS")
+def sensores_prismas_DS():
+    return render_template("prismas_DS.html")
 #api par alos radares 
 @app.route("/radares")
 def radares_API():
@@ -99,6 +78,10 @@ def radares_API():
 def sensores_radares():
     return render_template("radares_DB.html")
 
+@app.route("/radares_DS")
+def sensores_radares_DS():
+    return render_template("radares_DS.html")
+
 @app.route("/clinoextensometros")
 def clinoextensometros():
     clinoextensometros = fn.get_all_clinoextensometros()
@@ -106,6 +89,10 @@ def clinoextensometros():
 @app.route("/clinoextensometros_DB")
 def sensores_clinoextensometros():
     return render_template("clinoextensometros_DB.html")
+@app.route("/clinoextensometros_DS")
+def sensores_clinoextensometros_DS():
+    return render_template("clinoextensometros_DS.html")
+
 @app.route("/piezometros_activos")
 def piezometros_activos():
     sensores=fn.get_all_piezometros_activos()
@@ -124,7 +111,5 @@ def piezometros_procesados():
     sensores=fn.get_all_piezometros_procesados()
     print (sensores)
     return sensores
-
-
-if __name__ == "__main__":
+if __name__ == '__main__': 
     app.run(debug=True)
