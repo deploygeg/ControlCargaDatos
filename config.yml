@@ -9,3 +9,6 @@ Xdatabase: "geoalert_mel_gav"
 Xuser : "postgres" 
 Xpassword : "postgres"
 Xport : 5434
+
+Url_local : "http://127.0.0.1:5000/"
+Url_server : "http://161.0.162.4/"
