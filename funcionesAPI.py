@@ -5,7 +5,8 @@ import psycopg2
 import yaml
 import csv
 import pandas as pd
-yaml_file=open('C:/Users/gmalaga/Documents/api_ges/app/ControlCargaDatos/config.yml','r')
+import os
+yaml_file=open('config.yml','r')
 yaml_content = yaml.load(yaml_file, Loader=yaml.FullLoader)
 CONFIG_HOST = yaml_content["host"]
 CONFIG_DB = yaml_content["database"]
